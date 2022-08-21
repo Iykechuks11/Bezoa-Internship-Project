@@ -1,0 +1,45 @@
+/* TABLET */
+@media (max-width: 768px) {
+  .grid,
+  .showcase .grid,
+  .testimonies .grid-2,
+  .blog .grid-3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .testimonies {
+    height: 500px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .showcase{
+    height: auto;
+  }
+
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .showcase-image {
+    display: none;
+  }
+
+}
+
+
+/* MOBILE */
+@media (max-width: 500px) {
+
+  .nav-btn {
+    display: none;
+  }
+
+  .navbar .flex{
+    flex-direction: row;
+  }
+}
